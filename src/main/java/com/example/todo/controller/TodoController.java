@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/todos")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "${app.cors.allowed-origins}")
+@CrossOrigin(origins = "https://frontend-test-seven-pink.vercel.app")
 public class TodoController {
 
     private final TodoService service;
