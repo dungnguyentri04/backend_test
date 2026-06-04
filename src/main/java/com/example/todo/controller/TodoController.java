@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/todos")
+@RequestMapping("/todos")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "https://frontend-test-seven-pink.vercel.app")
 public class TodoController {
